@@ -81,6 +81,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        input.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                input.setText("");
+                output.setText("");
+            }
+        });
+
+
 
     }
 
